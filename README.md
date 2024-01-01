@@ -5,7 +5,7 @@ This is an “unofficial" OpenAI library that I maintain.
 
 
 
-Using vsChatGPT, just need to add both vsChatGPT.gml & vsChatGPT.yy to your scripts folder in your game.
+Using vsChatGPT, just need to download/copy the objects & scripts folders in your game.
 
 I don't have functions/tools operational just yet, work in progress.
 
