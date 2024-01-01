@@ -3,11 +3,16 @@ OpenAI API in GameMaker
 
 This is an “unofficial" OpenAI library that I maintain.
 
+<br/><br/>
+Using vsChatGPT, just need to download/copy the objects & scripts folders into your game.
 
+<br/><br/>
 
-Using vsChatGPT, just need to download/copy the objects & scripts folders in your game.
-
-I don't have functions/tools operational just yet, work in progress.
+Setting OpenAI Key
+<br/>Don't hardcode your API Key's in your game, huge security concerns with that. Specially if you export as HTML5.
+````
+global.OpenAI_Key = "OpenAI Key"
+````
 
 Setup callback function
 ````
@@ -15,8 +20,7 @@ function vsChatGPT_response(data){
   show_debug_message("WE HAVE DATA");
   show_debug_message(json_encode(data));
 }
-````
-````
+
 // Declare callback function
 global.vsChatGPTCallback = vsChatGPT_response;
 // Declare response ID (calls are async)
