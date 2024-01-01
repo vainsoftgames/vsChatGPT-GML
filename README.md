@@ -39,6 +39,7 @@ ds_list_add(msgs, createMSG("user", "prompt"));
 
 # Full Example
 ````
+// Will output map with id, model, usage, & content parameters
 function vsChatGPT_response(data){
   show_debug_message("WE HAVE DATA");
   show_debug_message(json_encode(data));
